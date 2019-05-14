@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import './pages/auth/signin_page.dart';
+import './pages/onboarding/onboarding_page.dart';
 
 
 class MainApp extends StatelessWidget{
@@ -11,7 +12,8 @@ class MainApp extends StatelessWidget{
       debugShowCheckedModeBanner: false,
 
       routes: {
-        '/': (BuildContext context)=> SigninPage()
+        '/signin': (BuildContext context)=> SigninPage(),
+        '/': (BuildContext context)=> OnboardingPage(),
       },
     );
   }

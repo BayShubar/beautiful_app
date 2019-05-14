@@ -10,6 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_screenutil: ^0.5.2
+  gradient_text: ^1.0.2
   cupertino_icons: ^0.1.2
 
 dev_dependencies:
@@ -21,12 +22,24 @@ flutter:
   uses-material-design: true
 
   assets:
+
+  # auth
+  
    - assets/auth/image_01.png
    - assets/auth/image_02.png
    - assets/auth/logo.png
    - assets/auth/logo_egs.png
 
+  # onboarding
+
+   - assets/onboarding/illustration.png
+   - assets/onboarding/illustration2.png
+   - assets/onboarding/illustration3.png
+
   fonts:
+  
+  # auth
+
     - family: CustomIcons
       fonts: 
         - asset: assets/auth/CustomIcons.ttf
@@ -39,3 +52,14 @@ flutter:
     - family: Poppins-Medium
       fonts: 
         - asset: assets/auth/Poppins-Medium.ttf
+
+    
+  # onboarding
+
+    - family: Montserrat-Black
+      fonts:
+        - asset: assets/onboarding/Montserrat-Black.ttf
+   
+    - family: Montserrat-Medium
+      fonts:
+        - asset: assets/onboarding/Montserrat-Medium.ttf
